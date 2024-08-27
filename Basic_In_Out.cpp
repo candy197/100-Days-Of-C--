@@ -12,6 +12,6 @@ int main(){
     cin>>b;
     sum = a+b;
 
-    cout<<"sum of the number: "<<sum<<endl;
+    cout<<"sum of the number: "<<sum<<endl ;
   
 }
