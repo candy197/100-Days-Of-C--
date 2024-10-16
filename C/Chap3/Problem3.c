@@ -2,7 +2,11 @@
 
 int main(){
 
-    char ch = 'g' ;
+    char ch;
+    printf("Enter Character: \n");
+    scanf("%c",&ch);
+
+
 
     printf("character is %c \n",ch);
     printf("The ASCI values of character is:%d \n",ch);
