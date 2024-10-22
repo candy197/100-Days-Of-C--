@@ -17,5 +17,9 @@ int main()
         printf("The value of index %d is %d \n",i,marks[i]);
     }
 
+    for(int i = 0;i<count;i++){
+        printf("The Address of  %d is %p \n",i,&marks[i]);
+    }
+
     return 0;
 }
