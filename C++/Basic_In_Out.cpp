@@ -1,19 +1,12 @@
 #include<print>
+#include<iostream>
 
 
+int main() {
+    int a, b;
 
-int main(){
-    using std::endl;
-    using std::cout;
-
-    int a, b,sum;
-
-    std::cout<<"Enter a number: "<<endl;
-    std::cin>>a;
-    std::cout<<"enter a second number"<<endl;
-    std::cin>>b;
-    sum = a+b;
-
-    std::cout<<"sum of the number: "<<sum<<endl ;
-  
+    std::println("Enter two numbers: ");  // print message
+    std::cin >> a >> b;
+    int sum = a + b;
+    std::println("The sum of {} and {} is {}", a, b, sum);  // formatted output
 }
