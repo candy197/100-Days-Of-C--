@@ -1,17 +1,19 @@
-#include<iostream>
+#include<print>
 
-using namespace std;
+
 
 int main(){
+    using std::endl;
+    using std::cout;
 
     int a, b,sum;
 
-    cout<<"Enter a number: "<<endl;
-    cin>>a;
-    cout<<"enter a second number"<<endl;
-    cin>>b;
+    std::cout<<"Enter a number: "<<endl;
+    std::cin>>a;
+    std::cout<<"enter a second number"<<endl;
+    std::cin>>b;
     sum = a+b;
 
-    cout<<"sum of the number: "<<sum<<endl ;
+    std::cout<<"sum of the number: "<<sum<<endl ;
   
 }
